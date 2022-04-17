@@ -1,0 +1,27 @@
+{
+    "name": "beginner-box-coin-puzzle",
+    "title": "beginner box coin puzzle",
+    "description": "A scene for the coin puzzle in the pathfinder Beginner Box",
+    "version": "1.0.0",
+    "author": "Mark Pearce",
+    "minimumCoreVersion": "0.8.6",
+    "compatibleCoreVersion": "9",
+    "packs": [
+        {
+            "name": "bb-coin-puzzle-actors",
+            "label": "Coin Puzzle Actors",
+            "path": "./packs/bb-coin-puzzle-actors.db",
+            "entity": "Actor",
+            "type": "Actor"
+        },
+        {
+            "name": "bb-coin-puzzle-scene",
+            "label": "Coin Puzzle Scene",
+            "path": "./packs/bb-coin-puzzle-scenes.db",
+            "entity": "Scene",
+            "type": "Scene"
+        }
+    ],
+    "manifest": "https://github.com/MarkPearce/beginner-box-coin-puzzle/releases/latest/download/module.json",
+  "download": "https://github.com/MarkPearce/beginner-box-coin-puzzle/releases/download/1.0.0/beginner-box-coin-puzzle.zip"
+  }
